@@ -1,4 +1,4 @@
-spring.application.name: spring-native-example
+spring.application.name: sample-jasypt
 spring.cloud.vault:
     generic:
         enabled: false
