@@ -11,7 +11,7 @@ public class restController {
 	
 	private Log log = LogFactory.getLog(restController.class);
 
-	@Value("${password}")
+	@Value("${jasypt.encryptor.password}")
 	String password;
 
 	@RequestMapping("/secret")
